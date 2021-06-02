@@ -9,5 +9,6 @@ router.post('/all/:status', TicketController.getAllTicketsByStatus);
 router.post('/ticket', TicketController.createTicket);
 router.post('/search', TicketController.getTicketsByTicketCode);
 router.put('/ticket/:id', TicketController.updateTicket);
+router.get('/:id', TicketController.getTicketById);
 
 export default router;
