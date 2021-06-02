@@ -17,7 +17,7 @@ const Layout: React.FunctionComponent<Props> = ({ children }: Props) => {
           content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
         />
       </Head>
-      <div class="flex flex-col w-screen h-screen overflow-auto text-gray-700 bg-gray-100">
+      <div className="flex flex-col w-screen h-screen overflow-auto text-gray-700 bg-gray-50">
         {children}
       </div>
     </>

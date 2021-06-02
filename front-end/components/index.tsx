@@ -3,6 +3,7 @@ import Header from "./Header";
 import CardTickets from "./CardTickets";
 import Ticket from "./Ticket";
 import TabStatusMenu from "./TabStatusMenu";
+import ModalEditTicket from "./ModalEditTicket";
 import ModalCreateTicket from "./ModalCreateTicket";
 export {
   Layout,
@@ -10,5 +11,6 @@ export {
   CardTickets,
   Ticket,
   TabStatusMenu,
+  ModalEditTicket,
   ModalCreateTicket,
 };
