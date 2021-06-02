@@ -90,8 +90,8 @@ const ModalActionTicket: React.FunctionComponent<Props> = ({
 
   return (
     <>
-      <div className="absolute w-full h-full flex flex-col top-0 items-center bg-black bg-opacity-30 justify-center px-8">
-        <div className="container mx-auto max-w-2xl bg-white shadow rounded">
+      <div className="absolute w-full h-full flex flex-col top-0 items-center justify-center px-8">
+        <div className="container mx-auto max-w-2xl bg-white shadow-2xl rounded">
           <div className="flex flex-row font-semibold text-gray-600 items-center px-3 py-3 justify-between border-b border-gray-20">
             <h2 className="text-md">Create Ticket</h2>
             <button

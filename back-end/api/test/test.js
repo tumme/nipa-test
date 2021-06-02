@@ -22,15 +22,6 @@ describe('Testing the ticket endpoint:', () => {
       .send(ticket)
       .end((err, res) => {
         expect(res.status).to.equal(201);
-        // expect(res.body.data).to.include({
-        //   id: 1,
-        //   ticket_code: ticket.ticket_code,
-        //   contract_name: ticket.contract_name,
-        //   contract_email: ticket.contract_email,
-        //   ticket_title: ticket.ticket_title,
-        //   ticket_description:ticket.ticket_description,
-        //   status: ticket.status,
-        // });
         done();
       });
   });
