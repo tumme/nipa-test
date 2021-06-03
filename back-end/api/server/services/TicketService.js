@@ -11,7 +11,7 @@ class TicketService {
              as: 'tickets',
           }
         ],
-        order: [['id','asc'],['tickets','id','desc']]
+        order: [['id','asc'],['tickets','updatedAt','desc']]
       });
     } catch (error) {
       throw error;
@@ -38,7 +38,7 @@ class TicketService {
     try {
       const tickets = await database.ticket.findAll({
         where: { status:status},
-        order: [['updatedAt', 'DESC']]
+        order: [['updatedAt', 'desc']]
       });
       return tickets;
     } catch (error) {

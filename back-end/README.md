@@ -5,15 +5,19 @@
   ```shell
   $ yarn install
   ```
-- Start your node server
+- ```
+
+before run please run 
+ - Create db name ticket-app
+ - Create db name ticket-app-test
+ - npx sequelize-cli db:migrate
+ - npx sequelize-cli db:seed:all
+
+ Start your node server
   > run the command below
   ```shell
   $ npm run dev
-  ```
-
-before run please run 
- - npx sequelize-cli db:migrate
- - npx sequelize-cli db:seed:all
+ 
 
 - Use `http://localhost:8080` as base url for endpoints
 
