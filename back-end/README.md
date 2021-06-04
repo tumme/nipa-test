@@ -7,9 +7,10 @@
   ```
 - ```
 
+
 before run please run 
- - Create db name ticket-app
- - Create db name ticket-app-test
+ - Create db name ticket-app on mysql
+ - Create db name ticket-app-test on mysql
  - npx sequelize-cli db:migrate
  - npx sequelize-cli db:seed:all
 
